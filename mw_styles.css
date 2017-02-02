@@ -1,0 +1,35 @@
+﻿/*
+   New Perspectives on HTML and CSS
+   Tutorial 3
+   Case Problem 2
+
+   Mountain Wheels Text and Color Style
+   Author:
+   Date:
+
+   Filename:         mw_layout.css
+   Supporting Files: none
+
+*/
+
+body{
+  font-family: Tahoma, "Geneva",sans-serif;
+}
+
+#articleheader {
+  font-size: 18px;
+  letter-spacing:7px;
+  text-align: center;
+}
+
+nav ul {
+  background-color: rgb(125, 120, 89);
+  line-height: 3em;
+  list-style-type: none;
+
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  opacity: 50%;
+}
